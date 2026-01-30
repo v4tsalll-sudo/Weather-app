@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.bg-clear {
+    background-image: url("/IMG_20260128_213609.png");
+}
+
+.bg-cloudy, .bg-fog, .bg-smoke {
+    background-image: url("/IMG_20260128_213712.png");
+}
+
+.bg-rain, .bg-thunderstrom {
+    background-image: url("/IMG_20260128_213812.png");
+}
+
+.bg-snow, .bg-mist, .bg-haze {
+    background-image: url("");
+}
+
+.bg-sunny, .bg-warm {
+    background-image: url("/IMG_20260130_110825.png");
+}
+
+.bg-default {
+    background-image: url("/IMG_20260128_213609.png");
+}
