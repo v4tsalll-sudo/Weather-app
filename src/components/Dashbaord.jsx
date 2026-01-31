@@ -11,6 +11,8 @@ const Dashbaord = () => {
     const saved = localStorage.getItem('weatherData')
     return saved ? JSON.parse(saved) : null
   })
+
+ 
   const [forecast, setForecast] = useState(()=>{
     const saved = localStorage.getItem('Forecast')
     return saved ? JSON.parse(saved) : null
@@ -35,7 +37,7 @@ const Dashbaord = () => {
     e.dt_txt.includes('12:00:00')
   )
 
-  console.log(dailyForecast)
+ 
 
   
     const city = response?.name  
@@ -64,15 +66,17 @@ const Dashbaord = () => {
     Clear : 'bg-clear',
     Clouds : 'bg-clouds',
     Rain : 'bg-rain',
+    Thunderstrom : 'bg-rain',
     Sunny : 'bg-sunny',
     Fog : 'bg-fog',
     Haze : 'bg-haze',
-    Mist : 'bg-Mist',
-    Warm : 'bg-warm',
-    Smoke : 'bg-smoke'
+    Mist : 'bg-mist',
+    Warm : 'bg-sunny',
+    Smoke : 'bg-haze',
   }
 
   const weatherMain = response?.weather[0]?.main
+  
   const bgClass = weatherBackground[weatherMain] || "bg-default"
 
   const [dateTime, setDateTime] = useState(new Date())

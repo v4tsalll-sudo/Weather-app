@@ -2,25 +2,38 @@
 
 
 .bg-clear {
-    background-image: url("/IMG_20260128_213609.png");
+    background-image: url("/weather_images/f0594bc27ea9423e1ef34e950120477a.jpg");
 }
 
-.bg-cloudy, .bg-fog, .bg-smoke {
-    background-image: url("/IMG_20260128_213712.png");
+.bg-clouds {
+    background-image: url("/weather_images/7ef662f109068f53caedbee3d9fb9ab6.jpg");
 }
 
 .bg-rain, .bg-thunderstrom {
-    background-image: url("/IMG_20260128_213812.png");
+    background-image: url("/weather_images/IMG_20260131_120051.jpg");
 }
 
-.bg-snow, .bg-mist, .bg-haze {
-    background-image: url("");
+.bg-snow {
+    background-image: url("/weather_images/33186d84d8504c30e534daf18e5d32c0.jpg");
 }
 
 .bg-sunny, .bg-warm {
-    background-image: url("/IMG_20260130_110825.png");
+    background-image: url("/weather_images/bb76056a670579ff676f553168b5df23.jpg");
 }
 
 .bg-default {
-    background-image: url("/IMG_20260128_213609.png");
+    background-image: url("/weather_images/f0594bc27ea9423e1ef34e950120477a.jpg");
+}
+
+.bg-fog {
+    background-image: url("/weather_images/IMG_20260131_115531.jpg");
+}
+
+.bg-haze {
+    background-image: url("/weather_images/6dce2668dfd6d177f7f6c13c8dffcd41.jpg");
+}
+
+
+.bg-mist {
+    background-image: url("/weather_images/02db632cf251ada718a4a36893718451.jpg");
 }
